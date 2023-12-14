@@ -28,4 +28,3 @@ This Movie Search project serves as a practical example of building a React appl
 ![one](https://github.com/NethmiSilva/Movie_Land/assets/91644460/7d2be9c5-f2fb-4f98-997b-53069c587021)
 ![two](https://github.com/NethmiSilva/Movie_Land/assets/91644460/8b878995-a683-4360-afe6-337c4fe7c5c7)
 
-<img src="https://github.com/NethmiSilva/Food-App/assets/91644460/3d65c1a2-d25a-404d-be19-4673caca5f96" width="300" height="500">
