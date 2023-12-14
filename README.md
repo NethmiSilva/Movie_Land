@@ -1,8 +1,26 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Movie Search Project using React and Vite
 
-Currently, two official plugins are available:
+## Overview
+This project is a Movie Search application built using React and Vite. The application leverages the OMDB API to fetch information about movies. The code is structured to incorporate key React concepts such as state management using useState and asynchronous operations with the useEffect hook. Additionally, the project showcases the modularization of components by breaking down the Movie Card UI into a separate component.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+To set up the project, the Vite build tool was used. Here are the steps to get started:
+Run the command **npm create vite@latest** to scaffold a new Vite project.
+Navigate into the project directory using **cd <project-name>** and install dependencies with **npm install**.
+Start the development server with **npm run dev**.
+
+## Features
+
+### Default Movies Display
+Upon loading the application, it automatically displays a list of movies with the title "Batman." This initial display is implemented using the useEffect hook. The application sends a request to the OMDB API to fetch movies with the specified title (tt3896198) and API key (c3637661).
+
+### Movie Search Functionality
+The application allows users to search for movies using a search input field. The search functionality is implemented with the useState hook to manage the search term, and the searchMovies function is called when the user clicks on the search icon.
+
+### Movie Card Component
+The code demonstrates the practice of breaking down the UI into reusable components. The MovieCard component is responsible for rendering individual movie cards. This modular approach enhances code readability and maintainability.
+
+
+## Conclusion
+This Movie Search project serves as a practical example of building a React application with Vite, incorporating features like default movie display, search functionality, and modular component design. The code emphasizes the use of React hooks for state management and asynchronous operations, providing a solid foundation for understanding and building more complex React applications.
